@@ -1,0 +1,68 @@
+html {
+  height: 100vh;
+  margin: 0;
+}
+body {
+  height: 100vh;
+}
+.heading {
+  margin-top: 0;
+  margin-bottom: 30px;
+  font-size: 3rem;
+}
+.form {
+  padding: 3px;
+  border: 2px solid rgba(255, 255, 255, 0.6);
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.07);
+}
+h2 {
+  font-size: 3rem;
+}
+form {
+  padding: 50px 380px;
+}
+
+.row {
+  display: flex;
+  text-align: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: space-between;
+  align-items: flex-start;
+}
+.txt {
+  padding: 5px 0 0 160px;
+  font-size: 30px;
+  color: #606162;
+}
+.sub {
+  text-align: center;
+  margin: 40px;
+}
+.sub a {
+  text-decoration: none;
+  font-size: 30px;
+  color: #000;
+}
+.sub a:hover {
+  text-shadow: 0 0 8px rgba(255, 255, 255, 0.8);
+}
+
+.sub button {
+  font-size: 35px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  background-color: #5dc1ff;
+  cursor: pointer;
+  padding: 5px;
+}
+.sub button:hover {
+  box-shadow: 0 0 8px rgba(255, 255, 255, 0.8) inset;
+}
+.footer {
+  padding: 15px 0;
+  font-size: 15px;
+  background-color: #000;
+}
